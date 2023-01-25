@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/floyd910/planes-fact-site]
-- Live Site URL: [https://joyful-kringle-4d5e95.netlify.app/]
+- Solution URL: [https://github.com/floyd910/planets-fact-site/]
+- Live Site URL: [https://elegant-kataifi-b6aa98.netlify.app/]
 
 ## My process
 
