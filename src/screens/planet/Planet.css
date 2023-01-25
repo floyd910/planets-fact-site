@@ -1,0 +1,187 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.planet-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 24px 0px 24px;
+}
+
+.planet-info h2 {
+  font-family: "Antonio";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.description {
+  font-family: "Spartan";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 22px;
+  /* or 200% */
+  text-align: center;
+  color: #ffffff;
+  margin-top: 16px;
+  max-width: 327px;
+  width: 100%;
+}
+
+.source {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 32px;
+  gap: 5px;
+}
+
+.source p,
+.source a {
+  font-family: "Spartan";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 25px;
+  /* identical to box height, or 208% */
+
+  color: #ffffff;
+
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.source img {
+  width: 12px;
+  height: 12px;
+  mix-blend-mode: normal;
+  /* opacity: 0.5; */
+}
+
+.params {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  margin-top: 28px;
+  width: 100%;
+  max-width: 327px;
+}
+
+.info-types-l-size {
+  display: none;
+}
+
+.info-types-mb {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .planet-page {
+    padding-bottom: 36px;
+  }
+
+  .content {
+    padding: 0 40px 0px 39px;
+  }
+  .planet-info {
+    padding: 0;
+  }
+  .info-types-mb {
+    display: none;
+  }
+  .info-types-l-size {
+    display: block;
+    margin-top: 44px;
+  }
+
+  .planet-text-control {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 69px;
+  }
+
+  .planet-info h2,
+  .description {
+    text-align: left;
+  }
+
+  .planet-info h2 {
+    font-size: 48px;
+    line-height: 62px;
+  }
+
+  .description {
+    width: 339px;
+    margin-top: 24px;
+    height: 110px;
+  }
+
+  .source {
+    justify-content: flex-start;
+    margin-top: 32px;
+  }
+
+  .params {
+    flex-direction: row;
+    max-width: none;
+    justify-content: center;
+    gap: 11px;
+  }
+}
+
+@media only screen and (min-width: 1240px) {
+  .planet-page {
+    padding-bottom: 56px;
+  }
+  .content {
+    padding: 0px 165px;
+  }
+  .planet-info {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 111.95px;
+    width: 100%;
+    padding: 69.95px 0px 17.95px 0px;
+  }
+  .planet-text-control {
+    flex-direction: column;
+    gap: 39px;
+  }
+  .planet-info h2 {
+    font-size: 80px;
+    line-height: 104px;
+  }
+
+  .description {
+    width: 350px;
+    height: 150px;
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .source {
+    justify-content: flex-start;
+    margin-top: 0px;
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .info-types-l-size {
+    margin-top: 0px;
+  }
+  .params {
+    gap: 30px;
+    justify-content: space-between;
+  }
+}

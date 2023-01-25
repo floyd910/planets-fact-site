@@ -1,0 +1,14 @@
+.mobile-nav {
+  padding: 24px 24px 47px 24px;
+  background: #070724;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .mobile-menu {
+    display: none;
+  }
+}
