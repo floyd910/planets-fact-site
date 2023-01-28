@@ -14,8 +14,16 @@ nav ul li {
   letter-spacing: 1.36364px;
   text-transform: uppercase;
   color: #ffffff;
+    -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
   display: flex;
-  justify-content: space-between;
+
+  -webkit-justify-content: space-between; 
+  justify-content: space-between; 
   align-items: center;
 }
 
