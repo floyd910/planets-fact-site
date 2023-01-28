@@ -35,3 +35,6 @@ h2,
 h4 {
   font-family: "Antonio";
 }
+
+button:focus{
+  outline: none;
